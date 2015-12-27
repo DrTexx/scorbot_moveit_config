@@ -1,0 +1,1 @@
+controller_joint_names: [base_to_body, body_to_upper_arm, upper_arm_to_fore_arm, fore_arm_to_wrist_x, wrist_x_to_wrist_z]
