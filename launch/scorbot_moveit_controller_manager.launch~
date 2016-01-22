@@ -4,8 +4,6 @@
  <!-- Set the param that trajectory_execution_manager needs to find the controller plugin -->
  <arg name="moveit_controller_manager" default="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
  <param name="moveit_controller_manager" value="$(arg moveit_controller_manager)"/>
- <param name="controller_manager_name" value="/"/>
- <param name="use_controller_manager" value="true"/> 
-<!-- load controller_list -->
+ <!-- load controller_list -->
  <rosparam file="$(find scorbot_moveit_config)/config/controllers.yaml"/>
 </launch>

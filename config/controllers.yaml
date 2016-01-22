@@ -1,6 +1,11 @@
 controller_list:
-  - name: ""
-    action_ns: joint_trajectory_action
+  - name: /scorbot/position_trajectory_controller
+    action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
-    joints: [base_to_body, body_to_upper_arm, upper_arm_to_fore_arm, fore_arm_to_wrist_x, wrist_x_to_wrist_z]
+    joints:
+      - base_to_body
+      - body_to_upper_arm
+      - upper_arm_to_fore_arm
+      - fore_arm_to_wrist_x
+      - wrist_x_to_wrist_z
