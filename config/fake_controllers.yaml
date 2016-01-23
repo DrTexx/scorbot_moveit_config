@@ -6,7 +6,3 @@ controller_list:
       - upper_arm_to_fore_arm
       - fore_arm_to_wrist_x
       - wrist_x_to_wrist_z
-  - name: fake_gripper_controller
-    joints:
-      - wrist_z_to_gripper_left
-      - wrist_z_to_gripper_right
